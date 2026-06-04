@@ -1,5 +1,5 @@
 {
-  "name": "ssh4",
+  "name": "@yilinyo/ssh4",
   "version": "0.1.0",
   "description": "CLI for generating SSH keys and adding hosts for passwordless login",
   "type": "module",
@@ -12,6 +12,14 @@
     "remote-access",
     "devops"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yilinyo/ssh4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yilinyo/ssh4/issues"
+  },
+  "homepage": "https://github.com/yilinyo/ssh4#readme",
   "bin": {
     "ssh4": "./bin/ssh4.js"
   },

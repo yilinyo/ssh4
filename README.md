@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm install -g .
+npm install -g @yilinyo/ssh4
 ```
 
 ## Usage
