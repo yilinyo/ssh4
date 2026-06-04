@@ -1,0 +1,30 @@
+{
+  "name": "ssh4",
+  "version": "0.1.0",
+  "description": "CLI for generating SSH keys and adding hosts for passwordless login",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "ssh",
+    "cli",
+    "passwordless",
+    "ssh-key",
+    "remote-access",
+    "devops"
+  ],
+  "bin": {
+    "ssh4": "./bin/ssh4.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node ./bin/ssh4.js",
+    "test": "node ./bin/ssh4.js --help"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
